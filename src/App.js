@@ -8,6 +8,14 @@ import { Header, Divider, Grid, Container, Segment, GridColumn } from "semantic-
 class App extends React.Component {
   state = { userChoice: null, compChoice: null, };
 
+   options =["rock", "paper", "scissor"];
+
+   compChoice = () => {
+
+   };
+   
+
+
 
   optionClick = (option) => {
 
